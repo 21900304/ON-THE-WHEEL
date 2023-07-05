@@ -292,7 +292,7 @@ class _NaverMapTestState extends State<NaverMapTest> {
                             CameraPosition(target: LatLng(lat, lng)),
                         onMapCreated: onMapCreated,
                         mapType: _mapType,
-                        markers: print_marker,
+                        markers: test_marker,
                       ),
                     ),
                     Padding(
